@@ -27,4 +27,4 @@ clf.fit(X_train,y_train)
 sample = input('Enter a message:')              
 data = cv.transform([sample]).toarray()           
 print(clf.predict(data))               
-Enter a message:You won $40 cash price ['spam']          
+Enter a message:You won $40 cash price ['spam']
